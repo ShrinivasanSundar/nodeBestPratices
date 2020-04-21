@@ -1,0 +1,36 @@
+2020-04-16 15:24:23 error : Successfully connected to postgre :swt-psql-server.postgres.database.azure.com
+2020-04-16 16:46:54 error : Error in connecting Db
+2020-04-16 19:41:19 error : Error occured in DB Error: read ECONNRESET
+2020-04-16 19:41:19 error : Error occured in DB Error: Connection terminated unexpectedly
+2020-04-16 23:39:17 error : Error in connecting Db
+2020-04-16 23:39:36 error : Error in connecting Db
+2020-04-17 00:29:54 error : Error in connecting Db :Error: read ECONNRESET
+2020-04-18 11:33:49 error : undefined
+2020-04-18 11:36:49 error : undefined
+2020-04-18 11:36:50 error : undefined
+2020-04-18 11:39:29 error : Failing row contains (4, shrini@gmail.com                                  , null, ADMIN).
+2020-04-18 11:42:44 error : Failing row contains (5, shrini@gmail.com                                  , null, ADMIN).
+2020-04-18 11:59:05 error : undefined
+2020-04-18 11:59:40 error : undefined
+2020-04-18 12:00:21 error : {"name":"error","length":89,"severity":"ERROR","code":"22001","file":"varchar.c","line":"309","routine":"bpchar"}
+2020-04-18 12:01:57 error : {}
+2020-04-18 12:05:46 error : {}
+2020-04-18 12:28:35 error : {}
+2020-04-18 12:34:07 error : {}
+2020-04-18 12:41:34 error : {}
+2020-04-18 12:43:23 error : {}
+2020-04-18 12:45:37 error : {}
+2020-04-18 12:50:04 error : undefined
+2020-04-18 12:51:36 error : undefined
+2020-04-18 12:52:54 error : undefined
+2020-04-18 12:53:54 error : undefined
+2020-04-18 12:58:54 error : undefined
+2020-04-18 13:03:57 error : undefined
+2020-04-18 13:04:47 error : undefined
+2020-04-18 13:07:45 error : undefined
+2020-04-18 13:11:39 error : {"name":"error","length":91,"severity":"ERROR","code":"42601","position":"73","file":"scan.l","line":"1126","routine":"scanner_yyerror"}
+2020-04-20 12:04:45 error : Error in connecting Db :Error: getaddrinfo ENOTFOUND swt-psql-server.postgres.database.azure.com swt-psql-server.postgres.database.azure.com:5432
+2020-04-20 12:05:26 error : Error in connecting Db :Error: read ECONNRESET
+2020-04-20 12:08:49 error : Error in connecting Db :Error: Connection terminated due to connection timeout
+2020-04-20 17:39:08 error : Error in connecting Db :Error: read ECONNRESET
+2020-04-21 19:37:01 error : {"name":"error","length":238,"severity":"ERROR","code":"23503","detail":"Key (client_id)=(15) is not present in table \"client_tbl\".","schema":"public","table":"cust_tbl","constraint":"client_id","file":"ri_triggers.c","line":"2784","routine":"ri_ReportViolation"}
