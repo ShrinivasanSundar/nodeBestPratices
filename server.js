@@ -11,7 +11,15 @@ var initalLogging = (req, res, next) => {
     next();
 }
 
+const morgan = require("morgan")
 
+
+app.use(morgan(
+    ":method :url :status :res[content-length] - :response-time ms",
+    {stream:{
+        write: (message) => Logger.http(message),
+      }}
+  ));
 
 app.use(initalLogging);
 
